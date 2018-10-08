@@ -133,7 +133,7 @@ maxDecoderLength = maxEncoderLength
 lstmUnits = 112
 embeddingDim = lstmUnits
 numLayersLSTM = 3
-numIterations = 500000
+numIterations = 50000
 
 # Loading in all the data structures
 with open("wordList.txt", "rb") as fp:
